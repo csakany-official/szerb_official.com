@@ -109,3 +109,7 @@ footer {
     padding: 10px; /* Opcionális: padding beállítása a szöveg körül */
     text-align: center; /* Opcionális: szöveg középre igazítása */
 }
+
+.serverico{
+    width: 79px;
+}

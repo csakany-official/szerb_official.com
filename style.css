@@ -67,8 +67,8 @@ footer {
     }
 
     .icon-buttons img {
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
     }
 
 .container {
@@ -113,3 +113,11 @@ footer {
 .serverico{
     width: 79px;
 }
+
+.iconocska {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+
+}
+

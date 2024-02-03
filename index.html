@@ -12,8 +12,26 @@
     <header>
         <!--<img class="gifesgif" src="img/tuzijatek.png" alt="disz">-->
         <h1>SZERB OFFICIAL</h1>
-        <a href="https://youtu.be/dQw4w9WgXcQ?si=xGQZcRgTCPb-fg-z"><img src="img/szerb_logo.png" alt="Csákány GIF"> </a>
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=xGQZcRgTCPb-fg-z"><img src="img/szerb_logo.png" alt="szer. logo" class="szerblogo"> </a>
     </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <p>-----------------------------------------------------------------</p>
     <a href="https://csakany-official.github.io/fooldal.hu/"><img src="img/Safeimagekit-resized-img.png" alt="" class="serverico"> </a>
     <p>CSÁKÁNY OFFICIAL WEBOLDAL (nyomj az ikonra)</p>
@@ -68,6 +86,24 @@
     <footer>
         <p>&copy; !Csákány Official 2024! Copyright protected! WebVersion: v1.0.4</p>
     </footer>
+    <script>
+        var lastScrollTop = 0;
+        var header = document.querySelector('header');
+
+        window.addEventListener('scroll', function() {
+            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollTop > lastScrollTop) {
+                
+                header.classList.add('hidden');
+            } else {
+                
+                header.classList.remove('hidden');
+            }
+
+            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; 
+        });
+    </script>
 
 </body>
 </html>

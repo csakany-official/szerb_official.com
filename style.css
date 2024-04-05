@@ -9,6 +9,9 @@ body {
 h1, p, h2, li {
     color: white;
 }
+h1{
+    text-align: center;
+}
 
 header {
     background-color: #3498db;
@@ -139,3 +142,9 @@ header.hidden {
 .szerblogo{
     width: 102px;
 }
+iframe{
+    
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    }

@@ -14,14 +14,14 @@ h1{
 }
 
 header {
-    background-color: #3498db;
-    color: #fff;
+    background-color: #3333;
+    color: #333;
     text-align: center;
     padding: 1em 0;
 }
 
 nav {
-    background-color: #2980b9;
+    background-color: #333;
 }
 
     nav ul {
@@ -52,7 +52,7 @@ section {
 }
 
 footer {
-    background-color: #3498db;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -107,10 +107,10 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #333; /* Opcionális: háttérszín beállítása */
-    color: white; /* Opcionális: szövegszín beállítása */
-    padding: 10px; /* Opcionális: padding beállítása a szöveg körül */
-    text-align: center; /* Opcionális: szöveg középre igazítása */
+    background-color: #333; 
+    color: white;
+    padding: 10px; 
+    text-align: center; 
 }
 
 .serverico{
@@ -125,11 +125,11 @@ footer {
 }
 
 header {
-    background-color: #3498db;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1em 0;
-    transition: top 0.3s ease-in-out; /* Animáció a header elemre */
+    transition: top 0.3s ease-in-out; 
     position: fixed;
     width: 100%;
     top: 0;
@@ -148,3 +148,4 @@ iframe{
     margin: 0 auto;
     width: 100%;
     }
+
